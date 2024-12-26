@@ -1,0 +1,259 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#nav1 {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+#search_field {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search_field input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#search_field button {
+    background-color: white;
+    color: black;
+    width: 20%;
+    padding: 10px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+
+#popup {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    align-self: flex-end;
+    margin-top: 6.5%;
+    margin-right: 5%;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.75);
+    z-index: 1;
+}
+#popup img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+#popup #function {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#popup p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    align-self: center;
+}
+#popup #pop_up_title {
+    font-weight: bold;
+}
+#popup #pop_up_desc {
+    margin-left: 5px;
+}
+#popup #function button {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#popup #function button:hover {
+    background-color: rgb(171, 171, 171);
+    color: white;
+}
+
+#search_field button:hover {
+    background-color: rgb(171, 171, 171);
+    color: white;
+}
+
+#list1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+#bg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+#home {
+    background-color: rgba(0, 255, 255, 0.3);
+    margin-right: 10%;
+    padding-bottom: 10%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+#title1 {
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20%;
+    margin-left: 5%;
+    opacity: 1;
+}
+#para1 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+#but1 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+}
+
+#about_us {
+    background-color: rgba(0, 255, 255, 0.3);
+    padding-bottom: 10%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    margin-left: 10%; 
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#abu_info {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+#abu_ot {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 5%;
+}
+#abu_ot_title {
+    font-size: 40px;
+    color: white;
+    margin: 5%;
+    width: 20%;
+}
+#abu_ot_team {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50%;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+#title2 {
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20%;
+    margin-left: 5%;
+    opacity: 1;
+}
+#abu_ot_team .team_name {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+#abu_ot_team button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#contact_us {
+    background-color: rgba(0, 255, 255, 0.3);
+    padding-bottom: 10%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+}
+#cu_info {
+    margin-left: 5%;
+    width: 40%
+}
+#cu_info #title3 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20%;
+    opacity: 1;
+}
+#form {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#form input {
+    width: 200%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#form textarea {
+    width: 208%;
+    height: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#form button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40%;
+}

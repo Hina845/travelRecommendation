@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav id = 'nav1'>
+      <div>
+        <h1>HTR</h1>
+      </div>
+      <ul id = 'list1'>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about_us">About Us</a></li>
+        <li><a href="#contact_us">Contact Us</a></li>
+      </ul>
+      <div id = 'search_field'>
+        <input id = 'search_bar' type="text" placeholder="Enter a destination or keyword...">
+        <button id = 'search_btn'>Search</button>
+        <button id = 'cls_btn'>Clear</button>
+      </div>
+    </nav>
+    <div id = 'popup'>
+      <img id = 'pop_up_img'>
+      <p id = 'pop_up_title'></p>
+      <p id = 'pop_up_desc'></p>
+      <div id = 'function'>
+        <button id = 'prev_btn'>Previous</button>
+        <button id = 'book_btn'>Book now</button>
+        <button id = 'next_btn'>Next</button>
+      </div>
+    </div>
+    <div id = 'bg'>
+        <img src = 'images/background1.jpg'>
+        <img src = 'images/background2.jpg' width="100%" height="100%">
+        <img src = 'images/background3.jpg' width="100%" height="100%">
+    </div>
+    <div id = 'home'>
+        <div id = title1>Explore the world</div>
+        <p style = "color: white;" id = para1>Discover your next adventure with our travel recommendation website! Explore tailored destinations, curated activities, and personalized itineraries designed just for you. Whether you're seeking relaxation, excitement, or cultural experiences, let us guide your journey effortlessly and inspire unforgettable memories.</p>
+        <button id = but1>Book now</button>
+    </div>
+    <div id = 'about_us'>
+        <div id = 'abu_info'>
+            <div id = title2>About Us</div>
+            <p id = para2>Our team of travel experts is dedicated to providing you with the best recommendations for your next vacation. We understand that planning a trip can be overwhelming, so we've created a platform that simplifies the process and ensures you have a memorable experience. From hidden gems to popular attractions, we've got you covered. Let us help you discover the world!</p>
+        </div>
+        <div id = 'abu_ot'>
+            <div id = abu_ot_title>Our Team</div>
+            <div id = 'abu_ot_team'>
+                <div>
+                    <p class = team_name>John Doe</p>
+                    <p>Travel Expert</p>
+                    <button>Contract</button>
+                </div>
+                <div>
+                    <p class = team_name>Thomas</p>
+                    <p>CEO</p>
+                    <button>Contract</button>
+                </div>
+                <div>
+                    <p class = team_name>Mike</p>
+                    <p>Marketing</p>
+                    <button>Contract</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id = 'contact_us'>
+      <div id = cu_info>
+        <div id = title3>Contact Us</div>
+        <p>Have questions or need assistance? Contact us today and we'll be happy to help you plan your next adventure. Our team is available 24/7 to provide you with the support you need. We look forward to hearing from you!</p>        
+      </div>
+      <div id = 'form'>
+        <div>
+            <p>Name</p>
+            <input id = 'name_input' type="text" placeholder="Name">
+        </div>
+        <div>
+            <p>Email</p>
+            <input id = 'email_input' type="text" placeholder="Email">
+        </div>
+        <div>
+            <p>Message</p>
+            <textarea id = 'message_input', placeholder="Message"></textarea>
+        </div>
+        <button id = 'form_submit'>Submit</button>
+      </div>
+    </div> 
+  </body>
+  <script src = 'travel_recommendation.js'></script>
+</html>
