@@ -89,3 +89,9 @@ cls_btn.addEventListener('click', () => {
 });
 
 
+const form_submit = document.getElementById('form_submit');
+form_submit.addEventListener('click', () => {
+    window.alert('Thanks for contracting us!')
+})
+
+
